@@ -7,8 +7,11 @@ https://rektapi.blackfire.hu
 
 
 authors:
+
 https://blackfire.hu
+
 https://github.com/Pippo1101
 
 also, thanks for the help, and hosting:
+
 https://www.szendrey.hu
