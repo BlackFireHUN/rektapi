@@ -17,66 +17,14 @@ if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on") {
 		<pre><code>
 		const superagent = require("superagent");
 
-		const link = "https://cdn.blackfire.hu/img/{endpoint}";
+		const link = "https://link to your site thingy/{endpoint}";
 		superagent.get(link).end((err, response) => {
 			  console.log(response.body.url)
 		  });	
 		</code></pre>
 		<h2>ENDPOINT'S</h2>
 		<pre><code>
-			anal/
-			ero/
-			femdom/
-			kemonomimi/
-			ngif/               
-			smug/
-			baka/
-			erofeet/  
-			fox_girl/
-			keta/
-			nsfw_neko_gif/
-			solo/
-			bj/
-			erok/ 
-			futanari/
-			kiss/
-			pat/
-			solog/
-			blowjob/
-			erokemo/
-			gasm/
-			kuni/
-			poke/
-			spank/
-			boobs/
-			eron/
-			hentai/
-			les/
-			pussy/ 
-			tickle/
-			classic/
-			eroyuri/
-			holo/ 
-			lewd/   
-			pussy_jpg/
-			tits/	
-			cuddle/ 
-			feed/    
-			holoero/  
-			lewdk/    
-			pwankg/   
-			trap/
-			cum/   
-			feet/   
-			hololewd/  
-			lewdkemo/  
-			Random_hentai_gif/
-			yuri/
-			cum_jpg/ 
-			feetg/   
-			hug/      
-			neko/      
-			slap/
+			
 		</code></pre>
 	</body>
 </html>
