@@ -1,0 +1,40 @@
+body {
+  background: url(.././img/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.tuxt {
+	color: #f54245 !important;
+}
+.nicetuxt {
+	padding-left: 50px;
+	font-size: 40px;
+	font-family: 'Lacquer';
+	color: white;
+	  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.btn-custom {
+ margin: 0;
+  position: absolute;
+   top: 60%;
+  -ms-transform: translateY(-40%);
+  transform: translateY(-40%);
+  left: 25%
+}
