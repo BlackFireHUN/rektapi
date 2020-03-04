@@ -15,9 +15,12 @@ if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on") {
 		<link rel="icon" href="/favicon.png" type="image/x-icon">
 	</head>
 	<body>
+		<div class="c-content">
 			<div id="changeText" class="nicetuxt"></div>
-			
-			<script>	
+		
+				<button type="button" style="margin-bottom: 10px;" onclick="document.location.href='usage.php';" class="btn btn-lg btn-outline-danger">Letme see!</button>
+		</div>
+					<script>	
 				var text = ["EVERYONE NEED'S SOME <b><a class=\"tuxt\">REKT</a></b> IN THEIR LIFE!", "EVERYONE NEED'S SOME <b><a class=\"tuxt\">API</a></b> IN THEIR LIFE!", "EVERYONE NEED'S SOME <b><a class=\"tuxt\">LEWDNESS</a></b> IN THEIR LIFE!"];
 				var counter = 0;
 				var elem = document.getElementById("changeText");
@@ -32,8 +35,5 @@ if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on") {
 				  }
 				}
 			</script>
-			<div class="btn-custom">
-				<button type="button" onclick="document.location.href='usage.php';" class="btn btn-lg btn-outline-danger">Letme see!</button>
-			</div>
 	</body>
 </html>

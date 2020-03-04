@@ -16,25 +16,26 @@ body {
   top: 0;
   left: 0;
 }
+.c-content{
+	text-align:center;
+	max-height: 200px;
+	width: 52%;
+	 display: inline-block;
+    background: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 50%;
+	transform: translate(0,-50%);
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+}
 .tuxt {
 	color: #f54245 !important;
 }
 .nicetuxt {
-	padding-left: 50px;
 	font-size: 40px;
 	font-family: 'Lacquer';
 	color: white;
-	  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-.btn-custom {
- margin: 0;
-  position: absolute;
-   top: 60%;
-  -ms-transform: translateY(-40%);
-  transform: translateY(-40%);
-  left: 25%
+	margin: 0;
 }
